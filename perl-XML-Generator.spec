@@ -4,12 +4,12 @@
 Summary:	XML::Generator perl module
 Summary(pl):	Modu³ perla XML::Generator
 Name:		perl-XML-Generator
-Version:	0.93
-Release:	2
+Version:	0.98
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fd39d1143cf06174c872f56382c17b10
+# Source0-md5:	f1bd02f92b2044e99dd9f9f5fbff5d7c
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6.1
 BuildArch:	noarch
