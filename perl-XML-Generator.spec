@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 XML::Generator - module for generating XML.
 
 %description -l pl
-XML::Generator - modul do generowania XML.
+XML::Generator - modu³ do generowania XML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
