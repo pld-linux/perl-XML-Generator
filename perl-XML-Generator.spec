@@ -1,11 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Generator
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML-Generator perl module
 Summary(pl):	Modu³ perla XML-Generator
 Name:		perl-XML-Generator
 Version:	0.91
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,7 +21,7 @@ XML-Generator - module for generating XML.
 XML-Generator - modul do generowania XML.
 
 %prep
-%setup -q -n XML-Generator-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
