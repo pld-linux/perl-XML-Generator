@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Generator
-Summary:	XML-Generator perl module
-Summary(pl):	Modu³ perla XML-Generator
+Summary:	XML::Generator perl module
+Summary(pl):	Modu³ perla XML::Generator
 Name:		perl-XML-Generator
 Version:	0.91
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XML-Generator - module for generating XML.
+XML::Generator - module for generating XML.
 
 %description -l pl
-XML-Generator - modul do generowania XML.
+XML::Generator - modul do generowania XML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
