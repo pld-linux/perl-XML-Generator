@@ -3,7 +3,7 @@ Summary:	XML-Generator perl module
 Summary(pl):	Modu³ perla XML-Generator
 Name:		perl-XML-Generator
 Version:	0.91
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
