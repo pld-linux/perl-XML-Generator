@@ -26,7 +26,7 @@ XML::Generator - modul do generowania XML.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
