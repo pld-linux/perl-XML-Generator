@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Generator
 Summary:	XML::Generator perl module
-Summary(pl.UTF-8):   Moduł perla XML::Generator
+Summary(pl.UTF-8):	Moduł perla XML::Generator
 Name:		perl-XML-Generator
 Version:	0.99
 Release:	1
