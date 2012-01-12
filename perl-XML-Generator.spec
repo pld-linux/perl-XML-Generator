@@ -8,13 +8,13 @@
 Summary:	XML::Generator - Perl extension for generating XML
 Summary(pl.UTF-8):	XML::Generator - rozszerzenie Perla do generowania XML-a
 Name:		perl-XML-Generator
-Version:	1.03
+Version:	1.04
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/XML/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	789d60259eed4517a9989768100abede
+# Source0-md5:	1ea1e239bdf3fd6f762c484753776626
 URL:		http://search.cpan.org/dist/XML-Generator/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
