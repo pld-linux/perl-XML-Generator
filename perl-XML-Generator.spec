@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	XML
 %define		pnam	Generator
@@ -14,9 +14,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/XML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1ea1e239bdf3fd6f762c484753776626
-URL:		http://search.cpan.org/dist/XML-Generator/
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		https://metacpan.org/release/XML-Generator
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -51,4 +52,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/XML/Generator.pm
 %dir %{perl_vendorlib}/XML/Generator
 %{perl_vendorlib}/XML/Generator/DOM.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/XML::Generator*.3*
